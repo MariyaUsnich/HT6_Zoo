@@ -1,12 +1,11 @@
 package Zoo;
 
 public class Animal extends ZooAnimals {
-    private String name;
+    private final String name;
 
     public Animal() {
         name = "Animal";
     }
-
     public Animal(String _name) {
         name = _name;
     }
@@ -26,8 +25,10 @@ public class Animal extends ZooAnimals {
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "It is an " + name + ". " + super.toString();
     }
+
 }
+
+

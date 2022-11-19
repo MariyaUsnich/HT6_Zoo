@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("-----IN A ZOO-----");
 
-        /* //experiment with ArrayList
+        /* //experiment with Array
         ArrayList<ZooAnimals> alZooAnim = new ArrayList<>();
         alZooAnim.add(new Animal());
         alZooAnim.add(new Bird());
@@ -27,7 +27,6 @@ public class Main {
         }
 
          */
-
             HashMap<Integer, ZooAnimals> anList = new HashMap<>();
             anList.put(1, new Tiger());
             anList.put(2, new Elephant());
@@ -49,7 +48,9 @@ public class Main {
             }
 
         }
-    }
+
+        }
+
 
 
 
